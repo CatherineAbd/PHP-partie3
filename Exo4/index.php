@@ -16,11 +16,9 @@ Tant que cette variable n'atteint pas 10, il faut : <br>
         while ($i <= 10){
           echo $i . "<br>";
           $i += $i/2;
+          // $i = $i + $i/2;
         }
       ?>
       </p>
     
-  </body>
-</html>
-
 <?php include "..\..\bottom_html.php";

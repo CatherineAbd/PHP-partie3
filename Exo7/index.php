@@ -14,8 +14,5 @@
         }
       ?>
       </p>
-    
-  </body>
-</html>
 
 <?php include "..\..\bottom_html.php";

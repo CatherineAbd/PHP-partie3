@@ -21,8 +21,5 @@ Tant que la première variable n'est pas supérieure à 20 : <br>
         }
       ?>
       </p>
-    
-  </body>
-</html>
 
 <?php include "..\..\bottom_html.php";

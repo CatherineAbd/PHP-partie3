@@ -13,14 +13,15 @@ En allant de 1 à 100 avec un pas de 1, afficher tous les nombres sauf celui cor
         $j = random_int(0, 30);
         echo("nombre aléatoire généré : $j <br>");
         for ($i = 1; $i <= 100 ; $i++){
-          if ($i != $j){
-            echo "i = $i<br>";
+          // if ($i != $j){
+          //   echo "i = $i<br>";
+          // }
+          if ($i == $j){
+            continue;
           }
+          echo "i = $i<br>";
         }
       ?>
       </p>
-    
-  </body>
-</html>
 
-<?php include "..\..\bottom_html.php";
+<?php include "..\..\bottom_html.php";  

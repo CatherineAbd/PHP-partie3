@@ -11,13 +11,10 @@
       <?php
         for ($i = 0; $i <= 100 ; $i++){
           if ($i % 3 != 0){
-            echo "i = $i n'est pas multiple de 3<br>";
+            echo "i = $i n'est pas multiple de 3 <br>";
           }
         }
       ?>
       </p>
-    
-  </body>
-</html>
 
 <?php include "..\..\bottom_html.php";

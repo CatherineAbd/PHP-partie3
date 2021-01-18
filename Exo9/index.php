@@ -10,19 +10,22 @@ En allant de 1 à 100 avec un pas de 1, afficher les nombres jusqu'au nombre al�
   <p class="topicTitle">Résultats</p>
       <p>
       <?php
-        $j = random_int(0, 30);
+        $j = random_int(1, 30);
+        // $j = rand(1, 30);
         echo("nombre aléatoire généré : $j <br>");
         for ($i = 1; $i <= 100 ; $i++){
-          if ($i != $j){
-            echo "i = $i<br>";
-          }else{
-            break;
+          echo "i : $i <br>";
+          if ($i == $j){
+            exit;
+            // break;
           }
+          // if ($i != $j){
+          //   echo "i = $i<br>";
+          // }else{
+          //   break;
+          // }
         }
       ?>
       </p>
-    
-  </body>
-</html>
 
 <?php include "..\..\bottom_html.php";

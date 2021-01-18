@@ -19,8 +19,5 @@ Tant que cette variable n'atteint pas 10, il faut : <br>
         }
       ?>
       </p>
-    
-  </body>
-</html>
 
 <?php include "..\..\bottom_html.php";
