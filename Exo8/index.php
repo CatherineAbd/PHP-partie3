@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP3 exo8</title>
-  </head>
-  <body>
+<?php 
+  include "..\..\\top_html.php";
+  include "..\\top_p3.php";
+  echo "Exercice 8";
+  ?>
+  <p class="topic">En allant de 0 à 100 avec un pas de 1, afficher tous ceux qui ne sont pas multiple de 3.<br>
+  </p>
+  <hr>
+  <p class="topicTitle">Résultats</p>
       <p>
       <?php
         for ($i = 0; $i <= 100 ; $i++){
@@ -19,6 +20,4 @@
   </body>
 </html>
 
-
-
-<!-- En allant de 0 à 100 avec un pas de 1, afficher tous ceux qui ne sont pas multiple de 3. -->
+<?php include "..\..\bottom_html.php";

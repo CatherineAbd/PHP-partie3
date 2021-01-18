@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP3 exo4</title>
-  </head>
-  <body>
+<?php 
+  include "..\..\\top_html.php";
+  include "..\\top_p3.php";
+  echo "Exercice 4";
+  ?>
+  <p class="topic">Créer une variable et l'initialiser à 1.  
+Tant que cette variable n'atteint pas 10, il faut : <br>
+- l'afficher<br>
+- l'incrementer de la moitié de sa valeur<br>
+  </p>
+  <hr>
+  <p class="topicTitle">Résultats</p>
       <p>
       <?php
         $i=1;
@@ -19,9 +23,4 @@
   </body>
 </html>
 
-
-
-<!-- Créer une variable et l'initialiser à 1.  
-Tant que cette variable n'atteint pas 10, il faut :
-- l'afficher
-- l'incrementer de la moitié de sa valeur -->
+<?php include "..\..\bottom_html.php";

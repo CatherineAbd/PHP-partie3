@@ -1,16 +1,20 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP3 exo1</title>
-  </head>
-  <body>
+<?php 
+  include "..\..\\top_html.php";
+  include "..\\top_p3.php";
+  echo "Exercice 1";
+  ?>
+  <p class="topic">Créer une variable et l'initialiser à 0.  
+Tant que cette variable n'atteint pas 10, il faut : <br>
+- l'afficher<br>
+- l'incrémenter
+  </p>
+  <hr>
+  <p class="topicTitle">Résultats</p>
       <p>
       <?php
         $i=0;
         while ($i < 10){
-          echo $i;
+          echo $i . "<br>";
           $i++;
         }
       ?>
@@ -19,10 +23,4 @@
   </body>
 </html>
 
-
-
-<!-- Exercice 1
-Créer une variable et l'initialiser à 0.  
-Tant que cette variable n'atteint pas 10, il faut :
-- l'afficher
-- l'incrementer -->
+<?php include "..\..\bottom_html.php";
