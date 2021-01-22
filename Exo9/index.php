@@ -1,5 +1,4 @@
 <?php 
-  include "..\..\\top_html.php";
   include "..\\top_p3.php";
   echo "Exercice 9";
   ?>
